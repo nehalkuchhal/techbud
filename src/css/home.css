@@ -214,7 +214,7 @@ SECTION 3
 
 .section3 {
   background: rgba(27, 27, 27, 0.705) no-repeat
-    url("/images/image-section3.png");
+    url("/src/images/image-section3.png");
   background-size: cover;
   height: 506px;
   margin-top: 150px;
