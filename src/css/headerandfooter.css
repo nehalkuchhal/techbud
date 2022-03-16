@@ -1,0 +1,128 @@
+:root {
+  --yellow: #f4c444;
+  --orange: #f97316;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+/* 
+=========
+HEADER
+=========
+*/
+
+header {
+  display: flex;
+  padding: 24px 104px;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo h3 {
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: -10px;
+}
+
+.logo {
+  width: 48px;
+  height: 41px;
+}
+
+nav ul {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  column-gap: 57px;
+  list-style: none;
+  margin-top: 15px;
+  margin-left: 50rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.signup {
+  background-color: var(--yellow);
+  width: 138px;
+  height: 54px;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 5px 8px rgba(255, 214, 0, 0.64);
+}
+
+.signup a {
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+
+/* 
+=========
+FOOTER
+=========
+*/
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+  margin-top: 60px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+}
+
+footer li {
+  margin-top: 10px;
+}
+
+
+.socialicons img {
+  width: 30px;
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+a:hover,
+a:focus {
+  font-weight: 700;
+}
+
+
+.sample{
+  background:  rgba(244, 196, 68, 0.14);
+  padding-top: 40px;
+}
