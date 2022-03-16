@@ -24,7 +24,7 @@ button{
 }
 
 .image-main {
-  background: rgba(0, 0, 0, 0.9) url("/images/imagecourse.png");
+  background: rgba(0, 0, 0, 0.9) url("/src/images/imagecourse.png");
   opacity: 0.6;
   width: 663px;
   height: 582px;
